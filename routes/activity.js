@@ -129,15 +129,15 @@ exports.execute = function (req, res) {
   }
   
   sendSMS(from,to,body);
-    /*  
-    client.messages 
-          .create({ 
-             body: body,
-             from :'+16203901789',
-             to: '+91'+to 
-           }) 
-           .then(message => console.log(message.sid)) 
-           .done(); */
+  //  /*  
+   // client.messages 
+   //       .create({ 
+    //         body: body,
+     //        from :'+16203901789',
+     //        to: '+91'+to 
+      //     }) 
+     //      .then(message => console.log(message.sid)) 
+     //      .done(); */
     // FOR TESTING
     logData(req);
     res.send(200, 'Publish');
