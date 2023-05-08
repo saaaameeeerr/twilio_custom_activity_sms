@@ -115,17 +115,18 @@ exports.execute = function (req, res) {
     
     //this line is responsible for userName is required  error 
     const client = require('twilio')(accountSid, authToken);
-       function sendSMS(messagingServiceSid, to, body) {
-    client.messages
-      .create({messagingServiceSid, to, body })
-      .then((message) => {
-        console.log(
-          `SMS message sent from  to ${to}. Message SID: ${message.sid}`
-        );
+    
+    function sendSMS(messagingServiceSid, to, body) {
+        client.messages
+          .create({messagingServiceSid, to, body })
+          .then((message) => {
+                 console.log(
+                    `SMS message sent from  to ${to}. Message SID: ${message.sid}`
+                 );
       })
-      .catch((error) => {
-        console.error(error);
-      });
+          .catch((error) => {
+            console.error(error);
+            });
   }
   
   sendSMS(from,to,body);
