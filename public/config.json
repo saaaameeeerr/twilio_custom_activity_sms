@@ -15,11 +15,8 @@
     "arguments": {
         "execute": {
             "inArguments": [
-                {
-                  "email": "{{Contact.Default.EmailAddress}}",
-                  "to": "{{Contact.Attribute.twilio.phonenumber}}" 
-                  
-                }               
+                {"email": "{{Contact.Default.EmailAddress}}"},
+                {"to": "{{Contact.Attribute.twilio.phonenumber}}" }           
             ],
             "outArguments": [],
             "url": "https://twiliocustomactivitysms-production.up.railway.app/journeybuilder/execute",
