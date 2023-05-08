@@ -22,7 +22,7 @@
                 }               
             ],
             "outArguments": [],
-            "url": "https://twilio-custom-activity-sms.vercel.app/journeybuilder/execute",
+            "url": "https://twiliocustomactivitysms-production.up.railway.app/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -34,9 +34,9 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "a3f4fed9-fa8a-49c8-9c3e-8d4699ed6e10",
+      "applicationExtensionKey": "db96e13b-3f82-48bc-ae64-c0a895de822e",
          "save": {
-           "url": "https://twilio-custom-activity-sms.vercel.app/save",
+           "url": "https://twiliocustomactivitysms-production.up.railway.app/journeybuilder/save",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -44,7 +44,7 @@
             "timeout": 3000 
        },
        "publish": {
-           "url": "https://twilio-custom-activity-sms.vercel.app/publish",
+           "url": "https://twiliocustomactivitysms-production.up.railway.app/journeybuilder/publish",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -52,7 +52,7 @@
             "timeout": 3000
        },
        "validate": {
-           "url": "https://twilio-custom-activity-sms.vercel.app/validate",
+           "url": "https://twiliocustomactivitysms-production.up.railway.app/journeybuilder/validate",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -60,7 +60,7 @@
             "timeout": 3000
        },
        "stop": {
-           "url": "https://twilio-custom-activity-sms.vercel.app/stop",
+           "url": "https://twiliocustomactivitysms-production.up.railway.app/journeybuilder/stop",
             "verb": "POST",
             "body": "",
             "format": "json",
