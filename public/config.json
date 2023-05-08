@@ -22,7 +22,7 @@
                 }               
             ],
             "outArguments": [],
-            "url": "https://twilio-custom-activity-sms.vercel.app/journeybuilder/execute/",
+            "url": "https://twilio-custom-activity-sms.vercel.app/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -35,7 +35,40 @@
     },
     "configurationArguments": {
       "applicationExtensionKey": "a3f4fed9-fa8a-49c8-9c3e-8d4699ed6e10",
-      
+         "save": {
+           "url": "https://twilio-custom-activity-sms.vercel.app/save",
+            "verb": "POST",
+            "body": "",
+            "format": "json",
+            "useJwt": false,
+            "timeout": 3000 
+       },
+       "publish": {
+           "url": "https://twilio-custom-activity-sms.vercel.app/publish",
+            "verb": "POST",
+            "body": "",
+            "format": "json",
+            "useJwt": false,
+            "timeout": 3000
+       },
+       "validate": {
+           "url": "https://twilio-custom-activity-sms.vercel.app/validate",
+            "verb": "POST",
+            "body": "",
+            "format": "json",
+            "useJwt": false,
+            "timeout": 3000
+       },
+       "stop": {
+           "url": "https://twilio-custom-activity-sms.vercel.app/stop",
+            "verb": "POST",
+            "body": "",
+            "format": "json",
+            "useJwt": false,
+            "timeout": 3000
+       }
+    },
+
     "wizardSteps": [
        { "label": "Create SMS Message", "key": "step1" }
     ],
