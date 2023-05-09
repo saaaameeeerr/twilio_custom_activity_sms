@@ -15,7 +15,7 @@
     "arguments": {
         "execute": {
             "inArguments": [
-                {"to": "{{Contact.Attribute.twilio.phonenumber}}" }
+                { "to": "{{Contact.Attribute.twilio.phonenumber}}" }
                 
                 
                  
@@ -105,14 +105,14 @@
                     },                    
                     {
                         "to": {
-                            "dataType": "Text",
+                            "dataType": "String",
                             "isNullable": false,
                             "direction": "out"   
                         }
                     },
                     {
                         "body": {
-                            "dataType": "String",
+                            "dataType": "",
                             "isNullable": false,
                             "direction": "out"   
                         }
