@@ -20,7 +20,7 @@
                 
                  
             ],
-             "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/execute",
+             "url": "https://twiliocustomactivitysms-production.up.railway.app/journeybuilder/execute",
             "outArguments": [],
           
             "verb": "POST",
@@ -36,7 +36,7 @@
     "configurationArguments": {
       "applicationExtensionKey": "db96e13b-3f82-48bc-ae64-c0a895de822e",
          "save": {
-           "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/save",
+           "url": "https://twiliocustomactivitysms-production.up.railway.app/save",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -44,7 +44,7 @@
             "timeout": 3000 
        },
        "publish": {
-           "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/publish",
+           "url": "https://twiliocustomactivitysms-production.up.railway.app/publish",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -52,7 +52,7 @@
             "timeout": 3000
        },
        "validate": {
-           "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/validate",
+           "url": "https://twiliocustomactivitysms-production.up.railway.app/validate",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -60,7 +60,7 @@
             "timeout": 3000
        },
        "stop": {
-           "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/stop",
+           "url": "https://twiliocustomactivitysms-production.up.railway.app/stop",
             "verb": "POST",
             "body": "",
             "format": "json",
