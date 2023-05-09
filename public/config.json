@@ -15,13 +15,14 @@
     "arguments": {
         "execute": {
             "inArguments": [
-                {
+                {"to": "{{Contact.Attribute.twilio.phonenumber}}" }
                 
-                "to": "{{Contact.Attribute.twilio.phonenumber}}"  
-                }
+                
+                 
             ],
+             "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/execute",
             "outArguments": [],
-            "url": "https://ena637b1klq3e.x.pipedream.net/journeybuilder/execute",
+          
             "verb": "POST",
             "body": "",
             "format": "json",
