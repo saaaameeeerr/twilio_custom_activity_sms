@@ -122,8 +122,8 @@ exports.execute = function (req, res) {
              from :'+16203901789',
              to: '+91'+to 
            }) 
-           .then(message => console.log(message.sid)) 
-           .done(); 
+           .then(message => console.log(message.sid));
+           
     // FOR TESTING
     logData(req);
     res.send(200, 'Publish');
