@@ -105,14 +105,14 @@
                     },                    
                     {
                         "to": {
-                            "dataType": "String",
+                            "dataType": "text",
                             "isNullable": false,
                             "direction": "out"   
                         }
                     },
                     {
                         "body": {
-                            "dataType": "",
+                            "dataType": "String",
                             "isNullable": false,
                             "direction": "out"   
                         }
