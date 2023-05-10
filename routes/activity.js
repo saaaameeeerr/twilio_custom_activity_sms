@@ -107,8 +107,9 @@ exports.execute = function (req, res) {
     var requestBody = req.body.inArguments[0];
     var uniqueEmail = req.body.keyValue;
     console.log(uniqueEmail);
-    const accountSid = requestBody.accountSid;
-    const authToken = requestBody.authToken;
+   // const accountSid = requestBody.accountSid;
+    const accountSid = "ACf5c5a78256caba2b7f9dbd15d4711187";
+    const authToken ="576b281c9dab060ef76a05096df456a6";
     const to = requestBody.to;
     const from = requestBody.messagingService;
     const body = requestBody.body;
@@ -119,9 +120,9 @@ exports.execute = function (req, res) {
        
     client.messages 
           .create({ 
-             body: body,
+             body: "hello",
              from :'+16203901789',
-             to: '+91'+to 
+             to: '+919550561187' 
            }) 
            .then(message => console.log(message.sid));
            
