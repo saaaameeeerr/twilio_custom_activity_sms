@@ -1,5 +1,5 @@
 {
-  "name": "twilio-journey-builder-example",
+  "name": "twilio-journey-builder-example", 
   "version": "1.0.0",
   "description": "Journey Builder Activity Template",
   "engines": {
@@ -21,7 +21,7 @@
     "heroku"
   ],
   "author": "John Maitz",
-  "license": "ISC",
+  "license": "",
   "bugs": {
     "url": "https://github.com/jmaitz/twilio-sfmc/issues"
   },
@@ -36,9 +36,5 @@
     "require": "^2.4.20",
     "twilio": "^4.10.0",
     "uglify-js": "^3.6.4"
-  },
-  "main": "app.js",
-  "directories": {
-    "lib": "lib"
   }
-}
+} 
