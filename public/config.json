@@ -15,7 +15,7 @@
     "arguments": {
         "execute": {
             "inArguments": [
-                { "to": "{{Contact.Attribute.twilio.phonenumber}}" }
+                { "to": "{{Contact.Attribute.SMS.phonenumber}}" }
                 
                 
                  
