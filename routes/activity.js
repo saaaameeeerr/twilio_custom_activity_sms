@@ -27,7 +27,7 @@ function logData(req) {
         cookies: req.cookies,
         ip: req.ip,
         path: req.path, 
-        host: req.host,
+        host: req.hostname,
         fresh: req.fresh,
         stale: req.stale,
         protocol: req.protocol,
@@ -125,7 +125,10 @@ exports.execute = function (req, res) {
              from :'+16203901789',
              to: '+91'+to 
            }) 
-           .then(message => console.log(message.sid));
+           .then(message => console.log(message.sid))
+            .catch((error) => {
+                console.error(error);
+                });
            
     // FOR TESTING
     logData(req);
