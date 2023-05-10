@@ -39,6 +39,25 @@ app.post('/journeybuilder/validate/', activity.validate );
 app.post('/journeybuilder/publish/', activity.publish );
 app.post('/journeybuilder/execute/', activity.execute );
 
+var requestBody = req.body.inArguments[0];
+ const accountSid =requestBody.accountSid;
+    const authToken =requestBody.authToken;
+    const to = requestBody.to;
+    const from = requestBody.messagingService;
+    const body = requestBody.body;
+    
+    //this line is responsible for userName is required  error 
+    const twilio = require("twilio");
+    const client = twilio(accountSid, authToken);
+       
+    client.messages 
+          .create({ 
+             body: body,
+             from :'+16203901789',
+             to: '+91'+to 
+           }) 
+           .then(message => console.log(message.sid));
+           console.log('helloworld'); 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
