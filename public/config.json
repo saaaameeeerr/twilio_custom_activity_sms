@@ -20,9 +20,7 @@
                 
                  
             ],
-             
-            "outArguments": [],
-             "url": "https://twiliocustomactivitysms-production.up.railway.app/journeybuilder/execute",
+            "url": "https://twiliocustomactivitysms-production.up.railway.app/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "format": "json",
@@ -30,11 +28,14 @@
             "timeout": 100000,
             "retryCount": 1,
             "retryDelay": 10000,
-            "concurrentRequests": 5
+            "concurrentRequests": 5,
+             
+            "outArguments": []
+           
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "db96e13b-3f82-48bc-ae64-c0a895de822e",
+      "applicationExtensionKey": "1643e6f7-76d1-4272-9dd3-d9c4369bce72",
          "save": {
            "url": "https://twiliocustomactivitysms-production.up.railway.app/journeybuilder/save",
             "verb": "POST",
