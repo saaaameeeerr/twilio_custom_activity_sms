@@ -114,6 +114,9 @@ exports.execute = function (req, res) {
     const from = requestBody.messagingService;
     const body = requestBody.body;
     console.log(to+"helloqwerty");
+    console.log(accountSid+"helloqwerty");
+    console.log(authToken+"helloqwerty");
+    
     
     //this line is responsible for userName is required  error 
     const twilio = require("twilio");
