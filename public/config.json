@@ -20,7 +20,7 @@
                 
                  
             ],
-            "url": "https://twilio_custom_activity_sms.railway.internal/journeybuilder/execute",
+            "url": "https://smstesttwilio-6fad34df63d9.herokuapp.com/journeybuilder/execute",
             "verb": "POST",
             "body": "",
             "format": "json",
